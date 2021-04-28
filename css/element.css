@@ -1,0 +1,7 @@
+.backgroundImage {
+    background-image: url("../image/background.png");
+    background-position: center;
+    background-size: 400px;
+    background-attachment: fixed;
+}
+

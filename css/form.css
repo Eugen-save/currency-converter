@@ -6,6 +6,7 @@
     max-width: 500px;
     width: 100%;
     margin: auto;
+    background-color: #fff;
 }
 
 .form__legend {
@@ -18,7 +19,7 @@
 
 .form__select {
     padding: 10px;
-    width: 100px;
+    width: 150px;
 }
 
 .form__input {
