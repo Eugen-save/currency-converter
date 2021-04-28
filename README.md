@@ -14,5 +14,6 @@ This converter uses average exchange rates
 1. Choose your currency as it is shown on GIF below
 2. Type amount that you want to convert
 3. Click button
+![GIF Currency Converter](https://github.com/Eugen-save/currency-converter/blob/main/image/currency-converter.gif?raw=true)
 
 
