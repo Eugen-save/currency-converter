@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        PRZELICZ EURO NA ZŁOTE POLSKIE
+    </header>
+<form class="js-formElement form">
+    <fieldset class="form__field">
+        <legend class="form__legend">EUR/PLN</legend>
+        <p>
+            <label>
+                <select class="js-chosenCurrency form__select">
+                    <option value="EUR">EUR</option>
+                    <option value="PLN">PLN</option>
+                    <option value="USD">USD</option>
+                    <option value="">Wybierz walutę</option>
+                </select><input class="js-currency form__input" type="number" min="1" step="any" value="1" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                <select class="js-finalCurrency form__select">
+                <option value="PLN">PLN</option>
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="">Wybierz walutę</option>
+            </select><input class="js-result form__input" type="number" min="1" step="any" disabled>
+</label>
+        </p>
+        
+    </fieldset>
+    <p>
+<button class="form__button">Sprawdź</button>
+    </p>
+</form>
+<div class="container">
+<table class="table">
+    <tr class="table__row">
+        <th class="table__header table__cell">Nazwa waluty</th>
+        <th class="table__header table__cell">Kod waluty</th>
+        <th class="table__header table__cell">Kurs średni</th>
+    </tr>
+    <tr class="table__row">
+        <th class="table__header--currency table__header table__cell"><img class="table__image" src=image/eu.png>Euro</th>
+        <td class="table__cell">1 EUR</td>
+        <td class="table__cell">4.53</td>
+    </tr>
+    <tr class="table__row">
+        <th class="table__header--currency table__header table__cell"><img class="table__image" src=image/usd.png>Dolar amerykański</th>
+        <td class="table__cell">1 USD</td>
+        <td class="table__cell">3.74</td>
+    </tr>
+</table>
+</div>
+
+</body>

@@ -1,0 +1,42 @@
+.form__field {
+    padding: 20px;
+    border-radius: 0px 0px 50px;
+    box-shadow: 1px 1px 17px 0px hsl(208, 79%, 29%);
+    border: none;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.form__legend {
+    border: solid 1px;
+    background-color: #0f4c81;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form__select {
+    padding: 10px;
+    width: 100px;
+}
+
+.form__input {
+    padding: 10px;
+    text-align: right;
+    margin: 20px 0;
+}
+
+.form__button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 20px;
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 1px 1px 17px 0px hsl(208, 79%, 29%);
+    border: none;
+    border-radius: 5px;
+    background-color: #0f4c81;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.table {
+
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+.table__cell {
+    border: solid 1px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.table__image {
+    border-radius: 50%;
+    width: 50px;
+    vertical-align: middle;
+    padding: 10px;
+    
+}
+
+.table__header--currency {
+    text-align: left;
+}
+
+.table__header {
+    background: hsl(208, 79%, 40%);
+    color: #fff;
+}
+
+.container {
+    overflow-x: auto;
+}
